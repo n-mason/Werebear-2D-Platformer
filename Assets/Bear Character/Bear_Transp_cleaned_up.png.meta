@@ -1,0 +1,840 @@
+fileFormatVersion: 2
+guid: ca4e149682c3a234c85088f5624a0248
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7254360306402094389
+    second: Bear_Transp_cleaned_up_0
+  - first:
+      213: -724382347718675601
+    second: Bear_Transp_cleaned_up_1
+  - first:
+      213: 2390289662056779487
+    second: Bear_Transp_cleaned_up_2
+  - first:
+      213: -6233406674922993161
+    second: Bear_Transp_cleaned_up_3
+  - first:
+      213: -3283271771170122411
+    second: Bear_Transp_cleaned_up_4
+  - first:
+      213: 7657512837207147464
+    second: Bear_Transp_cleaned_up_5
+  - first:
+      213: 1172678817786912609
+    second: Bear_Transp_cleaned_up_6
+  - first:
+      213: 5331038981632904007
+    second: Bear_Transp_cleaned_up_7
+  - first:
+      213: -6857290226831984736
+    second: Bear_Transp_cleaned_up_8
+  - first:
+      213: 5022596055991610862
+    second: Bear_Transp_cleaned_up_9
+  - first:
+      213: 6739720557027479839
+    second: Bear_Transp_cleaned_up_10
+  - first:
+      213: 7554107879403657340
+    second: Bear_Transp_cleaned_up_11
+  - first:
+      213: 4339115707728185565
+    second: Bear_Transp_cleaned_up_12
+  - first:
+      213: 8485461333525414117
+    second: Bear_Transp_cleaned_up_13
+  - first:
+      213: 4837436275410852758
+    second: Bear_Transp_cleaned_up_14
+  - first:
+      213: -873917771209224496
+    second: Bear_Transp_cleaned_up_15
+  - first:
+      213: -4999193107749415304
+    second: Bear_Transp_cleaned_up_16
+  - first:
+      213: 1587134223183849875
+    second: Bear_Transp_cleaned_up_17
+  - first:
+      213: 878363836254230172
+    second: Bear_Transp_cleaned_up_18
+  - first:
+      213: 722526168193420385
+    second: Bear_Transp_cleaned_up_19
+  - first:
+      213: 4793065609366091748
+    second: Bear_Transp_cleaned_up_20
+  - first:
+      213: -5726838779726172639
+    second: Bear_Transp_cleaned_up_21
+  - first:
+      213: 614929288827709836
+    second: Bear_Transp_cleaned_up_22
+  - first:
+      213: -8243052472498122258
+    second: Bear_Transp_cleaned_up_23
+  - first:
+      213: -3572828717944215046
+    second: Bear_Transp_cleaned_up_24
+  - first:
+      213: -5413230730568854318
+    second: Bear_Transp_cleaned_up_25
+  - first:
+      213: 297465025895321909
+    second: Bear_Transp_cleaned_up_26
+  - first:
+      213: 8189283964159461787
+    second: Bear_Transp_cleaned_up_27
+  - first:
+      213: 2455150067326240291
+    second: Bear_Transp_cleaned_up_28
+  - first:
+      213: 4443395447595859848
+    second: Bear_Transp_cleaned_up_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d6acf634aaca460800000000000000
+      internalID: 7254360306402094389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 402
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f633aaab71a72f5f0800000000000000
+      internalID: -724382347718675601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_2
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 402
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdece2988c30c2120800000000000000
+      internalID: 2390289662056779487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_3
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 402
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f98aa8b7ad7e79a0800000000000000
+      internalID: -6233406674922993161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_4
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 402
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555565a38b97f62d0800000000000000
+      internalID: -3283271771170122411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_5
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 402
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3c9bcaa53f44a60800000000000000
+      internalID: 7657512837207147464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f50d1fb21364010800000000000000
+      internalID: 1172678817786912609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 300
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b4dff65b7abf940800000000000000
+      internalID: 5331038981632904007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_8
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 300
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7fbe3ced206d0a0800000000000000
+      internalID: -6857290226831984736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_9
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 300
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed68a78088d3b540800000000000000
+      internalID: 5022596055991610862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_10
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 300
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f115507532c488d50800000000000000
+      internalID: 6739720557027479839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_11
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 300
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7895dac71595d860800000000000000
+      internalID: 7554107879403657340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 198
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8c47e1fb2a73c30800000000000000
+      internalID: 4339115707728185565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_13
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 198
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0481cff1a62c570800000000000000
+      internalID: 8485461333525414117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 198
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bd373a9a6022340800000000000000
+      internalID: 4837436275410852758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_15
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 198
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de4c24da683fd3f0800000000000000
+      internalID: -873917771209224496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_16
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 198
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876d309fa5c4f9ab0800000000000000
+      internalID: -4999193107749415304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_17
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 198
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3992dbfba22a60610800000000000000
+      internalID: 1587134223183849875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c969b7b5143903c00800000000000000
+      internalID: 878363836254230172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_19
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 102
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16cc71cc8bde60a00800000000000000
+      internalID: 722526168193420385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_20
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 102
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e73867e6c3648240800000000000000
+      internalID: 4793065609366091748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 103
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e6d70d87e2680b0800000000000000
+      internalID: -5726838779726172639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_22
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 103
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c892f8e1eeaa88800800000000000000
+      internalID: 614929288827709836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_23
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 103
+        width: 106
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee118d7237bca9d80800000000000000
+      internalID: -8243052472498122258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_24
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 106
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9ee9fe533ca6ec0800000000000000
+      internalID: -3572828717944215046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_25
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 106
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d41731c45750e4b0800000000000000
+      internalID: -5413230730568854318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_26
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 106
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531d7917ddec02400800000000000000
+      internalID: 297465025895321909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_27
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 0
+        width: 106
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b990780706e26a170800000000000000
+      internalID: 8189283964159461787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_28
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326c1417af1721220800000000000000
+      internalID: 2455150067326240291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_cleaned_up_29
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 0
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ff9821e9c1aad30800000000000000
+      internalID: 4443395447595859848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

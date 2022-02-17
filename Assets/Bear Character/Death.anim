@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LightBandit_Hurt
+  m_Name: Death
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,14 +20,19 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300064, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
-    - time: 0.125
-      value: {fileID: 21300066, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
+      value: {fileID: 4837436275410852758, guid: ca4e149682c3a234c85088f5624a0248,
+        type: 3}
+    - time: 1
+      value: {fileID: -873917771209224496, guid: ca4e149682c3a234c85088f5624a0248,
+        type: 3}
+    - time: 2
+      value: {fileID: -4999193107749415304, guid: ca4e149682c3a234c85088f5624a0248,
+        type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 8
+  m_SampleRate: 3
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -42,14 +47,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300064, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
-    - {fileID: 21300066, guid: f2ed27d6c1c3ccc48959bcca269d88f0, type: 3}
+    - {fileID: 4837436275410852758, guid: ca4e149682c3a234c85088f5624a0248, type: 3}
+    - {fileID: -873917771209224496, guid: ca4e149682c3a234c85088f5624a0248, type: 3}
+    - {fileID: -4999193107749415304, guid: ca4e149682c3a234c85088f5624a0248, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.25
+    m_StopTime: 2.3333333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

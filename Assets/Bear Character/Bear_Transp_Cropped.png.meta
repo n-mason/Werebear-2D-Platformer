@@ -1,0 +1,792 @@
+fileFormatVersion: 2
+guid: eaca6b887943b00409f252c8757a6c33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5745259179797786260
+    second: Bear_Transp_Cropped_0
+  - first:
+      213: -4332596297347144358
+    second: Bear_Transp_Cropped_1
+  - first:
+      213: -3751693100352812192
+    second: Bear_Transp_Cropped_2
+  - first:
+      213: 7437624734157937612
+    second: Bear_Transp_Cropped_3
+  - first:
+      213: -2107948617658074091
+    second: Bear_Transp_Cropped_4
+  - first:
+      213: -2966085332105440418
+    second: Bear_Transp_Cropped_5
+  - first:
+      213: -902230225488823207
+    second: Bear_Transp_Cropped_6
+  - first:
+      213: 8339310012110141830
+    second: Bear_Transp_Cropped_7
+  - first:
+      213: -4867273355226464433
+    second: Bear_Transp_Cropped_8
+  - first:
+      213: 6752049649752241160
+    second: Bear_Transp_Cropped_9
+  - first:
+      213: 8026642502631425633
+    second: Bear_Transp_Cropped_10
+  - first:
+      213: -5058350870700450129
+    second: Bear_Transp_Cropped_11
+  - first:
+      213: 9712800854557016
+    second: Bear_Transp_Cropped_12
+  - first:
+      213: -923944308180322393
+    second: Bear_Transp_Cropped_13
+  - first:
+      213: 5149551864196102549
+    second: Bear_Transp_Cropped_14
+  - first:
+      213: 2018955352412117887
+    second: Bear_Transp_Cropped_15
+  - first:
+      213: -5027514239573102131
+    second: Bear_Transp_Cropped_16
+  - first:
+      213: -5016690300747295709
+    second: Bear_Transp_Cropped_17
+  - first:
+      213: 8229750423181542370
+    second: Bear_Transp_Cropped_18
+  - first:
+      213: -5095860606316075397
+    second: Bear_Transp_Cropped_19
+  - first:
+      213: 9195923190392611661
+    second: Bear_Transp_Cropped_20
+  - first:
+      213: -2974119263100587591
+    second: Bear_Transp_Cropped_21
+  - first:
+      213: -5979347889494439846
+    second: Bear_Transp_Cropped_22
+  - first:
+      213: -8360114794784030644
+    second: Bear_Transp_Cropped_23
+  - first:
+      213: 4232782508233603020
+    second: Bear_Transp_Cropped_24
+  - first:
+      213: 6691939750842579336
+    second: Bear_Transp_Cropped_25
+  - first:
+      213: 4836941356298304241
+    second: Bear_Transp_Cropped_26
+  - first:
+      213: 7495550272089875201
+    second: Bear_Transp_Cropped_27
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 301
+        width: 76
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c61d995373db440b0800000000000000
+      internalID: -5745259179797786260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 301
+        width: 77
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5563756f968fd3c0800000000000000
+      internalID: -4332596297347144358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 301
+        width: 78
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06bcf27a00f4febc0800000000000000
+      internalID: -3751693100352812192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 301
+        width: 78
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb942c1a40c73760800000000000000
+      internalID: 7437624734157937612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_4
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 301
+        width: 78
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cf6bf86ef0fb2e0800000000000000
+      internalID: -2107948617658074091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_5
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 301
+        width: 78
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53db5efa1956d6d0800000000000000
+      internalID: -2966085332105440418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 76
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c3e10e362aa73f0800000000000000
+      internalID: -902230225488823207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_7
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 232
+        width: 78
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689feafb54e2bb370800000000000000
+      internalID: 8339310012110141830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_8
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 232
+        width: 77
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fb00ddba8f37cb0800000000000000
+      internalID: -4867273355226464433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 232
+        width: 80
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804784fe16914bd50800000000000000
+      internalID: 6752049649752241160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_10
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 232
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166066444dc546f60800000000000000
+      internalID: 8026642502631425633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_11
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 232
+        width: 77
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fae9c92fea02dc9b0800000000000000
+      internalID: -5058350870700450129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 169
+        width: 76
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851c5bcadb1822000800000000000000
+      internalID: 9712800854557016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_13
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 169
+        width: 80
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7faa60c8d7d23f0800000000000000
+      internalID: -923944308180322393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_14
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 169
+        width: 76
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599fbd11322e67740800000000000000
+      internalID: 5149551864196102549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_15
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 169
+        width: 73
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bd5e53235c40c10800000000000000
+      internalID: 2018955352412117887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_16
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 169
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1f60f9f6eaa3ab0800000000000000
+      internalID: -5027514239573102131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_17
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 169
+        width: 74
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3245fc340c2216ab0800000000000000
+      internalID: -5016690300747295709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e34bd32862f53270800000000000000
+      internalID: 8229750423181542370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_19
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 75
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76af9f07cdd749b0800000000000000
+      internalID: -5095860606316075397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_20
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 75
+        width: 86
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43e0296b6b7e9f70800000000000000
+      internalID: 9195923190392611661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_21
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 75
+        width: 63
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b13e3ba94ec9b6d0800000000000000
+      internalID: -2974119263100587591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_22
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 75
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58c33246c6150da0800000000000000
+      internalID: -5979347889494439846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_23
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 75
+        width: 74
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40096f43e7eafb80800000000000000
+      internalID: -8360114794784030644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc730c6d34dddba30800000000000000
+      internalID: 4232782508233603020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_25
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 5
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889b94b7fbb8edc50800000000000000
+      internalID: 6691939750842579336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 5
+        width: 84
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa7e8d4984402340800000000000000
+      internalID: 4836941356298304241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Transp_Cropped_27
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 88
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103eff3624b850860800000000000000
+      internalID: 7495550272089875201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
