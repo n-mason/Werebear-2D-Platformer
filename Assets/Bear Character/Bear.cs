@@ -10,9 +10,15 @@ public class Bear : MonoBehaviour
     private Animator m_animator;
     private Rigidbody2D m_body2d;
     //private Sensor_Bandit m_groundSensor;
-    private bool m_grounded = false;
-    private bool m_combatIdle = false;
+    //private bool m_grounded = false;
+    //private bool m_combatIdle = false;
     private bool m_isDead = false;
+
+    public Transform attackPoint;
+    public LayerMask enemyLayers;
+
+    public float attackRange = 0.5f;
+    public int attackDamage = 40;
 
     // Use this for initialization
     void Start()
@@ -25,21 +31,6 @@ public class Bear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
-        //Check if character just landed on the ground
-        if (!m_grounded && m_groundSensor.State())
-        {
-            m_grounded = true;
-            m_animator.SetBool("Grounded", m_grounded);
-        }
-
-        //Check if character just started falling
-        if (m_grounded && !m_groundSensor.State())
-        {
-            m_grounded = false;
-            m_animator.SetBool("Grounded", m_grounded);
-        }
-        */
 
         // -- Handle input and movement --
         float inputX = Input.GetAxis("Horizontal");
@@ -54,7 +45,7 @@ public class Bear : MonoBehaviour
         m_body2d.velocity = new Vector2(inputX * m_speed, m_body2d.velocity.y);
 
         //Set AirSpeed in animator
-        m_animator.SetFloat("AirSpeed", m_body2d.velocity.y);
+        //m_animator.SetFloat("AirSpeed", m_body2d.velocity.y);
 
         // -- Handle Animations --
         //Death
@@ -75,7 +66,7 @@ public class Bear : MonoBehaviour
         //Attack
         else if (Input.GetMouseButtonDown(0))
         {
-            m_animator.SetTrigger("Attack");
+            Attack();
         }
 
 
@@ -98,5 +89,27 @@ public class Bear : MonoBehaviour
         else
             m_animator.SetInteger("AnimState", 0);
         
+    }
+
+    void Attack()
+    {
+        m_animator.SetTrigger("Attack");
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        foreach(Collider2D enemy in hitEnemies)
+        {
+            //Debug.Log("We hit " + enemy.name);
+            enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+        }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if(attackPoint == null)
+        {
+            return;
+        }
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
