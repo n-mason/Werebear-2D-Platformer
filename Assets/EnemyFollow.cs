@@ -13,12 +13,14 @@ public class EnemyFollow : MonoBehaviour
     [SerializeField]
     float moveSpeed;
 
-    Rigidbody2D rb2d;
+    private Rigidbody2D rb2d;
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -30,11 +32,13 @@ public class EnemyFollow : MonoBehaviour
         {
             //chase the player
             ChasePlayer();
+            animator.SetBool("Moving", true);
         }
         else
         {
             //stop chasing player
             StopChasingPlayer();
+            animator.SetBool("Moving", false);
         }
     }
 

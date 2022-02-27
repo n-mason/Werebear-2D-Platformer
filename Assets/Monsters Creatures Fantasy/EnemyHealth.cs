@@ -42,23 +42,38 @@ public class EnemyHealth : MonoBehaviour
                 //transform.parent = null;
                 //GameObject.Find("Flying Enemy").SetActive(false);
                 GameObject.Find("Flying Enemy").GetComponent<AIDestinationSetter>().enabled = false; //NEED TO FIGURE OUT WHY FLOATING ON GROUND
-                GameObject.Find("Flying Enemy").GetComponent<AIPath>().enabled = false; //NEED TO FIGURE OUT WHY FLOATING ON GROUND
+                GameObject.Find("Flying Enemy").GetComponent<AIPath>().enabled = false;
+                StartCoroutine(ExecuteAfterTime_F(1)); // set to rigidbody to static after 1 second
             }
             else
             {
                 GetComponent<EnemyFollow>().enabled = false;
+                StartCoroutine(ExecuteAfterTime_S(1)); // set to rigidbody to static after 1 second
             }
 
-            if(timecount > 0)
-            {
-                timecount -= Time.deltaTime;
-            }
-            if(timecount <= 0)
-            {
-                GetComponent<Collider2D>().enabled = false; //change so that rigidboyd gets disabled instead, could also try a "dead" layer so that player cant interact anymore
-            }
+            
 
             Debug.Log("Enemy died!");
         }
+    }
+
+    IEnumerator ExecuteAfterTime_F(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        // Code to execute after the delay
+        GameObject.Find("Flying Enemy").GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+        BoxCollider2D col = GetComponent<BoxCollider2D>();
+        col.size = new Vector2(1f, 0.001f);
+    }
+
+    IEnumerator ExecuteAfterTime_S(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        // Code to execute after the delay
+        GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+        BoxCollider2D col = GetComponent<BoxCollider2D>();
+        col.size = new Vector2(1f, 0.001f);
     }
 }
