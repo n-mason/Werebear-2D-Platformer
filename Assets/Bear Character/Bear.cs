@@ -13,6 +13,8 @@ public class Bear : MonoBehaviour
     //private bool m_grounded = false;
     //private bool m_combatIdle = false;
     private bool m_isDead = false;
+    private float jump_cooldown = 3.0f;
+    private float time_since_jump = 3.0f; 
 
     public Transform attackPoint;
     public LayerMask enemyLayers;
@@ -31,30 +33,34 @@ public class Bear : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        time_since_jump += Time.deltaTime; 
 
         // -- Handle input and movement --
         float inputX = Input.GetAxis("Horizontal");
 
-        // Swap direction of sprite depending on walk direction
-        if (inputX < 0)
-            transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
-        else if (inputX > 0)
-            transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
+        if(m_animator.GetBool("IsDead") != true)
+        {
+            // Swap direction of sprite depending on walk direction
+            if (inputX < 0)
+                transform.localScale = new Vector3(-1.0f, 1.0f, 1.0f);
+            else if (inputX > 0)
+                transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
 
-        // Move
-        m_body2d.velocity = new Vector2(inputX * m_speed, m_body2d.velocity.y);
+            // Move
+            m_body2d.velocity = new Vector2(inputX * m_speed, m_body2d.velocity.y);
+        }
+        
 
-        //Set AirSpeed in animator
-        //m_animator.SetFloat("AirSpeed", m_body2d.velocity.y);
+        
 
         // -- Handle Animations --
         //Death
         if (Input.GetKeyDown("k"))
         {
             if (!m_isDead)
-                m_animator.SetTrigger("Death");
+                m_animator.SetBool("IsDead", true); 
             else
-                m_animator.SetTrigger("Recover");
+                m_animator.SetBool("IsDead", false); 
 
             m_isDead = !m_isDead;
         }
@@ -73,11 +79,19 @@ public class Bear : MonoBehaviour
         //Jump
         else if (Input.GetKeyDown("space"))
         {
-            //m_animator.SetTrigger("Jump");
-            //m_grounded = false;
-            //m_animator.SetBool("Grounded", m_grounded);
-            m_body2d.velocity = new Vector2(m_body2d.velocity.x, m_jumpForce);
-            //m_groundSensor.Disable(0.2f);
+            if(time_since_jump > jump_cooldown)
+            {
+                time_since_jump = 0;
+                //m_animator.SetTrigger("Jump");
+                //m_grounded = false;
+                //m_animator.SetBool("Grounded", m_grounded);
+                if (m_animator.GetBool("IsDead") != true)
+                {
+                    m_body2d.velocity = new Vector2(m_body2d.velocity.x, m_jumpForce);
+                }
+
+                //m_groundSensor.Disable(0.2f);
+            }
         }
 
         //Run
@@ -103,6 +117,8 @@ public class Bear : MonoBehaviour
             enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
         }
     }
+
+    
 
     void OnDrawGizmosSelected()
     {

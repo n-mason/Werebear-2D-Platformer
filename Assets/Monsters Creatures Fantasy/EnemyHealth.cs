@@ -9,7 +9,7 @@ public class EnemyHealth : MonoBehaviour
     public int maxHealth = 100;
     int currentHealth;
     private Rigidbody2D rb;
-    private float timecount = 2;
+    //private float timecount = 2;
 
     // Start is called before the first frame update
     void Start()
@@ -47,7 +47,7 @@ public class EnemyHealth : MonoBehaviour
             }
             else
             {
-                GetComponent<EnemyFollow>().enabled = false;
+                GetComponent<EnemyBehavior>().enabled = false;
                 StartCoroutine(ExecuteAfterTime_S(1)); // set to rigidbody to static after 1 second
             }
 
@@ -75,5 +75,17 @@ public class EnemyHealth : MonoBehaviour
         GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
         BoxCollider2D col = GetComponent<BoxCollider2D>();
         col.size = new Vector2(1f, 0.001f);
+
+        
+        GameObject parent = GameObject.Find("Skeleton");
+        for (int i = 0; i < parent.transform.childCount; i++)
+        {
+            var child = parent.transform.GetChild(i).gameObject;
+            if(child != null)
+            {
+                child.SetActive(false);
+            }
+        }
+        
     }
 }
