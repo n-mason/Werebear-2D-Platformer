@@ -13,8 +13,8 @@ public class Bear : MonoBehaviour
     //private bool m_grounded = false;
     //private bool m_combatIdle = false;
     private bool m_isDead = false;
-    private float jump_cooldown = 3.0f;
-    private float time_since_jump = 3.0f; 
+    private float jump_cooldown = 2.0f;
+    private float time_since_jump = 2.0f; 
 
     public Transform attackPoint;
     public LayerMask enemyLayers;
