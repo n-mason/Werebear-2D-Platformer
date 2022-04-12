@@ -8,7 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 500;
     int currentHealth;
     private Rigidbody2D rb;
-    bool isDead = false;
+    public bool isDead = false;
 
     // Start is called before the first frame update
     void Start()
