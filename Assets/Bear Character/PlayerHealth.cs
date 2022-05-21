@@ -39,7 +39,7 @@ public class PlayerHealth : MonoBehaviour
             // Die animation
             animator.SetBool("IsDead", true);
 
-            // Need to create code for end game screen
+            this.GetComponent<Bear>().enabled = false;
 
             Debug.Log("Player died!");
         }

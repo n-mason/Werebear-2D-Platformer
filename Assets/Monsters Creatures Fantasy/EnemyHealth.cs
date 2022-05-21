@@ -9,6 +9,7 @@ public class EnemyHealth : MonoBehaviour
     public int maxHealth = 100;
     int currentHealth;
     private Rigidbody2D rb;
+    public bool skIsDead = false;
     //private float timecount = 2;
 
     // Start is called before the first frame update
@@ -33,6 +34,7 @@ public class EnemyHealth : MonoBehaviour
         {
             // Die animation
             animator.SetBool("IsDead", true);
+            skIsDead = true;
 
             // DIsable the enemy
             //GetComponent<Collider2D>().enabled = false; This will call enemies to fall out of map when they are killed
@@ -41,12 +43,13 @@ public class EnemyHealth : MonoBehaviour
             {
                 //transform.parent = null;
                 //GameObject.Find("Flying Enemy").SetActive(false);
-                GameObject.Find("Flying Enemy").GetComponent<AIDestinationSetter>().enabled = false; //NEED TO FIGURE OUT WHY FLOATING ON GROUND
-                GameObject.Find("Flying Enemy").GetComponent<AIPath>().enabled = false;
+                //GameObject.Find("Flying Enemy").GetComponent<AIDestinationSetter>().enabled = false; //NEED TO FIGURE OUT WHY FLOATING ON GROUND
+                //GameObject.Find("Flying Enemy").GetComponent<AIPath>().enabled = false;
                 StartCoroutine(ExecuteAfterTime_F(1)); // set to rigidbody to static after 1 second
             }
             else
             {
+                GetComponent<EnemyBehavior>().EnemyDead();
                 GetComponent<EnemyBehavior>().enabled = false;
                 StartCoroutine(ExecuteAfterTime_S(1)); // set to rigidbody to static after 1 second
             }
@@ -74,18 +77,12 @@ public class EnemyHealth : MonoBehaviour
         // Code to execute after the delay
         GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
         BoxCollider2D col = GetComponent<BoxCollider2D>();
-        col.size = new Vector2(1f, 0.001f);
+        col.enabled = false;
+        
 
         
-        GameObject parent = GameObject.Find("Skeleton");
-        for (int i = 0; i < parent.transform.childCount; i++)
-        {
-            var child = parent.transform.GetChild(i).gameObject;
-            if(child != null)
-            {
-                child.SetActive(false);
-            }
-        }
+        //GameObject parent = GameObject.Find("Skeleton");
+        transform.Find("hitBox").gameObject.SetActive(false);
         
     }
 }

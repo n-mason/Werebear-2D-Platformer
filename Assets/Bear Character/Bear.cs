@@ -12,22 +12,27 @@ public class Bear : MonoBehaviour
     //private Sensor_Bandit m_groundSensor;
     //private bool m_grounded = false;
     //private bool m_combatIdle = false;
-    private bool m_isDead = false;
+    //private bool m_isDead = false;
     private float jump_cooldown = 2.0f;
-    private float time_since_jump = 2.0f; 
+    private float time_since_jump = 2.0f;
+    private bool attack_cooling = false;
+    private float attack_timer;
 
     public Transform attackPoint;
     public LayerMask enemyLayers;
 
     public float attackRange = 0.5f;
+    public float attackCooldown = 1;
     public int attackDamage = 40;
+    public int skDeathCount = 0;
 
     // Use this for initialization
     void Start()
     {
         m_animator = GetComponent<Animator>();
         m_body2d = GetComponent<Rigidbody2D>();
-        //m_groundSensor = transform.Find("GroundSensor").GetComponent<Sensor_Bandit>();
+        attack_timer = attackCooldown;
+        
     }
 
     // Update is called once per frame
@@ -49,10 +54,10 @@ public class Bear : MonoBehaviour
             // Move
             m_body2d.velocity = new Vector2(inputX * m_speed, m_body2d.velocity.y);
         }
-        
 
-        
 
+
+        /*
         // -- Handle Animations --
         //Death
         if (Input.GetKeyDown("k"))
@@ -68,13 +73,32 @@ public class Bear : MonoBehaviour
         //Hurt
         else if (Input.GetKeyDown("h"))
             m_animator.SetTrigger("Hurt");
+        */
 
-        //Attack
-        else if (Input.GetMouseButtonDown(0))
+
+        if (attack_cooling)
         {
-            Attack();
+            attack_timer -= Time.deltaTime;
+            if (attack_timer <= 0)
+            {
+                attack_cooling = false;
+                attack_timer = attackCooldown;
+            }
         }
 
+
+        //Attack
+        if (Input.GetMouseButtonDown(0))
+        {
+            if(attack_cooling == false)
+            {
+                attack_cooling = true;
+                Attack();
+            }
+        }
+
+        
+        
 
         //Jump
         else if (Input.GetKeyDown("space"))
@@ -105,6 +129,7 @@ public class Bear : MonoBehaviour
         
     }
 
+
     void Attack()
     {
         m_animator.SetTrigger("Attack");
@@ -115,10 +140,15 @@ public class Bear : MonoBehaviour
         {
             //Debug.Log("We hit " + enemy.name);
             enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+            if(enemy.GetComponent<EnemyHealth>().skIsDead == true)
+            {
+                skDeathCount += 1;
+            }
         }
     }
 
     
+
 
     void OnDrawGizmosSelected()
     {

@@ -12,6 +12,7 @@ public class EnemyBehavior : MonoBehaviour
     public float moveSpeed;
     public float timer; ///Timer for cooldown between attacks
     
+    
     //Variables for damaging player
     public float attackRange = 0.5f;
     public int enem_attackDamage = 100;
@@ -26,6 +27,7 @@ public class EnemyBehavior : MonoBehaviour
     private bool inRange;
     private bool cooling;
     private float intTimer;
+    private bool enDead = false;
     #endregion
 
 
@@ -37,25 +39,36 @@ public class EnemyBehavior : MonoBehaviour
 
     void Update()
     {
-        if (inRange)
+        if (!enDead)
         {
-            hit = Physics2D.Raycast(rayCast.position, Vector2.left, rayCastLength, raycastMask);
-            RaycastDebugger();
-        }
+            if (inRange)
+            {
+                if (gameObject.transform.rotation.eulerAngles.y == 0)
+                {
+                    hit = Physics2D.Raycast(rayCast.position, Vector2.right, rayCastLength, raycastMask);
+                }
+                else
+                {
+                    hit = Physics2D.Raycast(rayCast.position, Vector2.left, rayCastLength, raycastMask);
+                }
+                    
+                RaycastDebugger();
+            }
 
-        if(hit.collider != null) //Player is encountered
-        {
-            EnemyLogic();
-        }
-        else if(hit.collider == null)
-        {
-            inRange = false;
-        }
+            if (hit.collider != null) //Player is encountered
+            {
+                EnemyLogic();
+            }
+            else if (hit.collider == null)
+            {
+                inRange = false;
+            }
 
-        if(inRange == false)
-        {
-            anim.SetBool("Moving", false);
-            StopAttack();
+            if (inRange == false)
+            {
+                anim.SetBool("Moving", false);
+                StopAttack();
+            }
         }
     }
 
@@ -129,21 +142,46 @@ public class EnemyBehavior : MonoBehaviour
         anim.SetBool("Attack", false);
     }
 
+    
     void RaycastDebugger()
     {
-        if(distance > attackDistance)
+        //Debug.Log(gameObject.transform.rotation.eulerAngles.y);
+        
+        if(gameObject.transform.rotation.eulerAngles.y == 0)
         {
-            Debug.DrawRay(rayCast.position, Vector2.left * rayCastLength, Color.red);
+            if (distance > attackDistance)
+            {
+                Debug.DrawRay(rayCast.position, Vector2.right * rayCastLength, Color.red);
+            }
+            else if (attackDistance > distance)
+            {
+                Debug.DrawRay(rayCast.position, Vector2.right * rayCastLength, Color.green);
+            }
         }
-        else if(attackDistance > distance)
+        else
         {
-            Debug.DrawRay(rayCast.position, Vector2.left * rayCastLength, Color.green);
+            if (distance > attackDistance)
+            {
+                Debug.DrawRay(rayCast.position, Vector2.left * rayCastLength, Color.red);
+            }
+            else if (attackDistance > distance)
+            {
+                Debug.DrawRay(rayCast.position, Vector2.left * rayCastLength, Color.green);
+            }
         }
     }
+    
 
     public void TriggerCooling()
     {
         cooling = true;
+    }
+
+    public void EnemyDead()
+    {
+        Debug.Log("Calling EnemyDead");
+        enDead = true;
+        this.enabled = false;
     }
 
     /* //Old Method for following the player
